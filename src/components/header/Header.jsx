@@ -5,6 +5,9 @@ import logo from '../../image/logo.png'
 
 const Header = () => {
   const history = useNavigate()
+  const navigate = () => {
+    history('sign-in')
+  }
   return (
     <header id="header">
       <div className="container">
@@ -23,7 +26,7 @@ const Header = () => {
               <span>О нас</span>
             </NavLink>
           </nav>
-          <button onClick={() => history('sign-in')}>
+          <button onClick={navigate}>
             <AiOutlineUser />
             Войти
           </button>

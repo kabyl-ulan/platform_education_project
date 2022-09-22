@@ -3,7 +3,10 @@
 
 // Авторизация
 #sing-in {
-  padding-top: 120px;
+  background: linear-gradient(152.23deg, #d78b59 6.77%, #595feb 47.79%);
+  padding-top: 5rem;
+  position: relative;
+  z-index: 150;
 
   .sing-in {
     display: flex;

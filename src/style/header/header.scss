@@ -51,12 +51,12 @@
           transition: 0.3s;
         }
 
-        &:hover span:before {
+        &:hover a:before {
           content: '';
           width: 50%;
         }
 
-        &:hover span:after {
+        &:hover a:after {
           content: '';
           width: 50%;
         }
