@@ -2,7 +2,162 @@
 @import './media-footer.scss';
 
 //footer
+
 #footer {
-  background: #595feb;
-  height: 40vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #ffffff;
+  backdrop-filter: blur(20px);
+  padding: 40px 0;
+
+  .footer--general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    &__one {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+
+      select {
+        margin-top: 20px;
+        background: transparent;
+        border: none;
+        color: white;
+        outline: none;
+
+        option {
+          color: white;
+        }
+      }
+    }
+
+    &__two {
+      h1 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 10px;
+      }
+
+      &--nav {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+
+        a {
+          padding: 7px 0;
+          font-weight: 400;
+          font-size: 16px;
+          color: #ffffff;
+        }
+      }
+    }
+
+    &__three {
+      h1 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+
+      &--nav {
+        width: 192px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div {
+          color: white;
+          font-size: 20px;
+          padding: 0 8px;
+          cursor: pointer;
+          transition: 0.4s;
+
+          &:hover {
+            color: crimson;
+          }
+        }
+      }
+    }
+
+    &__four {
+      h1 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+
+      &--nav {
+        display: flex;
+        align-items: center;
+
+        div {
+          color: white;
+          font-size: 20px;
+          padding: 0 8px;
+          cursor: pointer;
+          transition: 0.4s;
+
+          &:hover {
+            color: crimson;
+          }
+        }
+
+        a {
+          font-weight: 400;
+          font-size: 16px;
+          color: #ffffff;
+        }
+      }
+    }
+
+    &__five {
+      h1 {
+        font-weight: 500;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+
+      &--nav {
+        display: flex;
+        align-items: center;
+
+        div {
+          color: white;
+          font-size: 20px;
+          padding: 0 8px;
+          cursor: pointer;
+          transition: 0.4s;
+
+          &:hover {
+            color: crimson;
+          }
+        }
+
+        a {
+          width: 226px;
+          color: #ffffff;
+        }
+
+        &--nav {
+          a {
+            font-weight: 400;
+            font-size: 16px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .footer--img {
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
