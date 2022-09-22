@@ -18,7 +18,7 @@ const SignIn = () => {
             <Link to="/come" className="sing-in__block--btn">
               <button>Войти</button>
             </Link>
-            <h2>Забыли пароль?</h2>
+            <a href="#">Забыли пароль?</a>
           </div>
         </div>
       </div>

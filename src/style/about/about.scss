@@ -1,2 +1,32 @@
 @import '../reset.scss';
 @import './media-about.scss';
+
+#our-course {
+
+  padding: 230px 0 120px 0;
+
+  .our-course {
+    h1 {
+      font-weight: 500;
+      font-size: 47.4833px;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 40px;
+      color: #FFFFFF;
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      padding-top: 45px;
+    }
+  }
+}

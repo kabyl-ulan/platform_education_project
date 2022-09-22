@@ -32,41 +32,37 @@
         padding-bottom: 3px;
         position: relative;
 
-        &:before {
+        &:before{
           position: absolute;
-          content: '';
+          content: "";
           width: 0;
           height: 2px;
           background: aqua;
           bottom: 0;
           left: 50%;
-          transition: 0.3s;
+          transition: .3s;
         }
-
-        &:after {
+        &:after{
           position: absolute;
-          content: '';
+          content: "";
           width: 0;
           height: 2px;
           background: aqua;
           bottom: 0;
           right: 50%;
-          transition: 0.3s;
+          transition: .3s;
         }
 
-        &:hover span:before {
-          content: '';
+        &:hover a:before{
           width: 50%;
         }
-
-        &:hover span:after {
-          content: '';
+        &:hover a:after{
           width: 50%;
         }
       }
     }
 
-    button {
+      button {
       border: none;
       cursor: pointer;
       width: 129px;
