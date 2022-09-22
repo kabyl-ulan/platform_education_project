@@ -2,11 +2,8 @@
 @import './media-sign-in.scss';
 
 // Авторизация
-
-
 #sing-in {
-  background: linear-gradient(152.23deg, #D78B59 6.77%, #595FEB 47.79%);;
-  padding-top: 15%;
+  padding-top: 120px;
 
   .sing-in {
     display: flex;
@@ -24,7 +21,7 @@
     &__block {
       width: 25%;
       background: rgba(255, 255, 255, 0.3);
-      border: 1px solid #FFFFFF;
+      border: 1px solid #ffffff;
       backdrop-filter: blur(4px);
       border-radius: 10px;
       padding: 20px;
@@ -37,42 +34,41 @@
       h1 {
         font-weight: 500;
         font-size: 24px;
-        color: #FFFFFF;
+        color: #ffffff;
         margin-bottom: 25px;
-
       }
 
       input {
         width: 90%;
         height: 40px;
-        border: 1px solid #FFFFFF;
+        border: 1px solid #ffffff;
         border-radius: 10px;
         background: transparent;
         padding-left: 5%;
         margin-bottom: 18px;
         outline: none;
-        color: #FFFFFF;
+        color: #ffffff;
       }
 
       &--btn {
         button {
           width: 330px;
           height: 40px;
-          border: 1px solid #FFFFFF;
+          border: 1px solid #ffffff;
           border-radius: 10px;
-          background: #FFFFFF;
+          background: #ffffff;
           cursor: pointer;
           padding-left: 5%;
           margin: 4% 0 4% 0;
           font-weight: 500;
           font-size: 20px;
-          color: #6363DF;
-          transition: .3s;
+          color: #6363df;
+          transition: 0.3s;
 
           &:hover {
             transform: scale(1.1);
             background: transparent;
-            color: #FFFFFF;
+            color: #ffffff;
           }
         }
       }
@@ -80,9 +76,8 @@
       h2 {
         font-weight: 400;
         font-size: 14px;
-        color: #FFFFFF;
+        color: #ffffff;
       }
-
     }
   }
 }
