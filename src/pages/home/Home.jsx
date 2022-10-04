@@ -128,7 +128,7 @@ const Home = () => {
                                       <button>Новое</button>
                                       <button>Книги</button>
                                   </div>
-                              </div>
+                              </div>+
 
                               <img src={bookglobal} alt=""/>
 

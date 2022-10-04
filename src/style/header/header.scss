@@ -1,5 +1,6 @@
 @import '../reset.scss';
 @import './media-header.scss';
+@import './burger-menu.scss';
 
 #header {
   background: rgba(255, 255, 255, 0.05);
@@ -14,6 +15,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+
+    &__hamburger {
+      display: none;
+    }
+
+
     img {
       width: 100%;
     }
@@ -62,7 +70,7 @@
         }
       }
     }
-    button {
+    &__sign-in {
       border: none;
       cursor: pointer;
       width: 129px;

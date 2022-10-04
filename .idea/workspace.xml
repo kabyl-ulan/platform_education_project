@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0225fab5-ee08-4bb7-bdd0-6452639b59e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/header/BurgerMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/header/burger-menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/our-course/OurCourse.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/our-course/OurCourse.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/about/media-about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/about/media-about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/header/media-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/header/media-header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -39,20 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +68,31 @@
       <updated>1663850541709</updated>
       <workItem from="1663850544023" duration="6197000" />
       <workItem from="1663859117268" duration="1289000" />
+      <workItem from="1664177471578" duration="2080000" />
+      <workItem from="1664188650239" duration="322000" />
+      <workItem from="1664266740242" duration="66000" />
+      <workItem from="1664267032363" duration="12000" />
+      <workItem from="1664267079676" duration="323000" />
+      <workItem from="1664267414016" duration="70000" />
+      <workItem from="1664267503524" duration="229000" />
+      <workItem from="1664267750134" duration="290000" />
+      <workItem from="1664268196707" duration="142000" />
+      <workItem from="1664268359953" duration="235000" />
+      <workItem from="1664268737856" duration="560000" />
+      <workItem from="1664269327177" duration="40000" />
+      <workItem from="1664269384711" duration="242000" />
+      <workItem from="1664269640181" duration="306000" />
+      <workItem from="1664270593804" duration="13000" />
+      <workItem from="1664270635649" duration="130000" />
+      <workItem from="1664270809805" duration="355000" />
+      <workItem from="1664271224498" duration="18000" />
+      <workItem from="1664271276515" duration="1875000" />
+      <workItem from="1664273174626" duration="232000" />
+      <workItem from="1664284035004" duration="373000" />
+      <workItem from="1664381823656" duration="667000" />
+      <workItem from="1664384453479" duration="1137000" />
+      <workItem from="1664549350196" duration="11000" />
+      <workItem from="1664878816004" duration="638000" />
     </task>
     <servers />
   </component>
