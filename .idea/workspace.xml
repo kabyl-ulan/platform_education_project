@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0225fab5-ee08-4bb7-bdd0-6452639b59e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/BurgerMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/header/burger-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/about/media-about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/about/media-about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/header/media-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/header/media-header.scss" afterDir="false" />
-    </list>
+    <list default="true" id="0225fab5-ee08-4bb7-bdd0-6452639b59e3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +83,7 @@
       <workItem from="1664381823656" duration="667000" />
       <workItem from="1664384453479" duration="1137000" />
       <workItem from="1664549350196" duration="11000" />
-      <workItem from="1664878816004" duration="638000" />
+      <workItem from="1664878816004" duration="1057000" />
     </task>
     <servers />
   </component>
