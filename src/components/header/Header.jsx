@@ -6,8 +6,9 @@ import logo from '../../image/logo.png'
 const Header = () => {
   const history = useNavigate()
   const navigate = () => {
-    history('sign-in')
+    history('/sign-in')
   }
+
   return (
     <header id="header">
       <div className="container">

@@ -8,9 +8,13 @@
   position: fixed;
   width: 100%;
   z-index: 100;
+  top: 0;
+  left: 0;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
 
   .header {
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,4 +92,8 @@
       }
     }
   }
+}
+
+.transform {
+  transform: translateY(-100px);
 }
