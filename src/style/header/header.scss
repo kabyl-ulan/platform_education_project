@@ -19,15 +19,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
-=======
     position: relative;
 
     &__hamburger {
       display: none;
     }
-
->>>>>>> c78d09ebbb97454ffb1f90f1f38fb8bc0bfad23e
 
     img {
       width: 100%;
@@ -78,35 +74,33 @@
         }
       }
     }
-<<<<<<< HEAD
 
     button {
-=======
-    &__sign-in {
->>>>>>> c78d09ebbb97454ffb1f90f1f38fb8bc0bfad23e
-      border: none;
-      cursor: pointer;
-      width: 129px;
-      height: 46.81px;
-      background: #ffffff;
-      border-radius: 0 10px 10px 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 400;
-      font-size: 16px;
-      color: #595feb;
-      transition: 0.4s;
+      &__sign-in {
+        border: none;
+        cursor: pointer;
+        width: 129px;
+        height: 46.81px;
+        background: #ffffff;
+        border-radius: 0 10px 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: #595feb;
+        transition: 0.4s;
 
-      div {
-        font-size: 30px;
-        padding-right: 10px;
-      }
+        div {
+          font-size: 30px;
+          padding-right: 10px;
+        }
 
-      &:hover {
-        background: #000;
-        color: white;
-        border: 2px solid #595feb;
+        &:hover {
+          background: #000;
+          color: white;
+          border: 2px solid #595feb;
+        }
       }
     }
   }
