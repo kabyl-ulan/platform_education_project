@@ -49,185 +49,179 @@ const Home = () => {
 
                 <div className="tabs--general__block--one__btn">
                   <h2>Полезные статьи</h2>
-
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
-
-                <img src={bookglobal} alt="" />
-
-                <div className="tabs--general__block--one__line"></div>
-
-                <div className="tabs--general__block--one__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
-                </div>
-              </div>
-              <div className="tabs--general__block--one">
-                <h1>С какой книги начать?</h1>
-
-                <div className="tabs--general__block--one__btn">
-                  <h2>Полезные статьи</h2>
-
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
-
-                <img src={bookglobal} alt="" />
-
-                <div className="tabs--general__block--one__line"></div>
-
-                <div className="tabs--general__block--one__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
-                </div>
-              </div>
-              <div className="tabs--general__block--one">
-                <h1>С какой книги начать?</h1>
-
-                <div className="tabs--general__block--one__btn">
-                  <h2>Полезные статьи</h2>
-
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
-
-                <img src={bookglobal} alt="" />
-
-                <div className="tabs--general__block--one__line"></div>
-
-                <div className="tabs--general__block--one__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
-                </div>
-              </div>
-              <div className="tabs--general__block--one">
-                <h1>С какой книги начать?</h1>
-
-                <div className="tabs--general__block--one__btn">
-                  <h2>Полезные статьи</h2>
-
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
-
-                <img src={bookglobal} alt="" />
-
-                <div className="tabs--general__block--one__line"></div>
-
-                <div className="tabs--general__block--one__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
                 </div>
               </div>
 
-              <div className="tabs--general__block--two">
-                <h1>С какой книги начать?</h1>
+              <img src={bookglobal} alt="" />
 
-                <div className="tabs--general__block--two__btn">
-                  <h2>Полезные статьи</h2>
+              <div className="tabs--general__block--one__line"></div>
 
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
+              <div className="tabs--general__block--one__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
+              </div>
+            </div>
+            <div className="tabs--general__block--one">
+              <h1>С какой книги начать?</h1>
 
-                <img src={bookglobal} alt="" />
-                <img src={bookTwo} alt="" />
+              <div className="tabs--general__block--one__btn">
+                <h2>Полезные статьи</h2>
 
-                <div className="tabs--general__block--two__line"></div>
-
-                <div className="tabs--general__block--two__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
+                <div>
+                  <button>Все</button>
+                  <button>Новое</button>
+                  <button>Книги</button>
                 </div>
               </div>
 
-              <div className="tabs--general__block--one">
-                <h1>С какой книги начать?</h1>
+              <img src={bookglobal} alt="" />
 
-                <div className="tabs--general__block--one__btn">
-                  <h2>Полезные статьи</h2>
+              <div className="tabs--general__block--one__line"></div>
 
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
+              <div className="tabs--general__block--one__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
+              </div>
+            </div>
+            <div className="tabs--general__block--one">
+              <h1>С какой книги начать?</h1>
 
-                <img src={bookglobal} alt="" />
+              <div className="tabs--general__block--one__btn">
+                <h2>Полезные статьи</h2>
 
-                <div className="tabs--general__block--one__line"></div>
-
-                <div className="tabs--general__block--one__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
+                <div>
+                  <button>Все</button>
+                  <button>Новое</button>
+                  <button>Книги</button>
                 </div>
               </div>
-              <div className="tabs--general__block--one box-one">
-                <h1>С какой книги начать?</h1>
 
-                <div className="tabs--general__block--one__btn">
-                  <h2>Полезные статьи</h2>
+              <img src={bookglobal} alt="" />
 
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
+              <div className="tabs--general__block--one__line"></div>
 
-                <img src={bookglobal} alt="" />
+              <div className="tabs--general__block--one__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
+              </div>
+            </div>
+            <div className="tabs--general__block--one">
+              <h1>С какой книги начать?</h1>
 
-                <div className="tabs--general__block--one__line"></div>
+              <div className="tabs--general__block--one__btn">
+                <h2>Полезные статьи</h2>
 
-                <div className="tabs--general__block--one__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
+                <div>
+                  <button>Все</button>
+                  <button>Новое</button>
+                  <button>Книги</button>
                 </div>
               </div>
-              <div className="tabs--general__block--one box-one">
-                <h1>С какой книги начать?</h1>
 
-                <div className="tabs--general__block--one__btn">
-                  <h2>Полезные статьи</h2>
+              <img src={bookglobal} alt="" />
 
-                  <div>
-                    <button>Все</button>
-                    <button>Новое</button>
-                    <button>Книги</button>
-                  </div>
-                </div>
+              <div className="tabs--general__block--one__line"></div>
 
-                <img src={bookglobal} alt="" />
-
-                <div className="tabs--general__block--one__line"></div>
-
-                <div className="tabs--general__block--one__text">
-                  <h4>Автор: Muslim Bolot</h4>
-                  <h4>Дата: 22.08.22</h4>
-                </div>
+              <div className="tabs--general__block--one__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
               </div>
             </div>
 
-            <div className="tabs--general__footer">
-              <button>Показать болшье</button>
+            <div className="tabs--general__block--two">
+              <h1>С какой книги начать?</h1>
+
+              <div className="tabs--general__block--two__btn">
+                <h2>Полезные статьи</h2>
+
+                <div>
+                  <button>Все</button>
+                  <button>Новое</button>
+                  <button>Книги</button>
+                </div>
+              </div>
+
+              <img src={bookglobal} alt="" />
+              <img src={bookTwo} alt="" />
+
+              <div className="tabs--general__block--two__line"></div>
+
+              <div className="tabs--general__block--two__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
+              </div>
             </div>
+
+            <div className="tabs--general__block--one">
+              <h1>С какой книги начать?</h1>
+
+              <div className="tabs--general__block--one__btn">
+                <h2>Полезные статьи</h2>
+
+                <div>
+                  <button>Все</button>
+                  <button>Новое</button>
+                  <button>Книги</button>
+                </div>
+              </div>
+
+              <img src={bookglobal} alt="" />
+
+              <div className="tabs--general__block--one__line"></div>
+
+              <div className="tabs--general__block--one__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
+              </div>
+            </div>
+            <div className="tabs--general__block--one box-one">
+              <h1>С какой книги начать?</h1>
+
+              <div className="tabs--general__block--one__btn">
+                <h2>Полезные статьи</h2>
+
+                <div>
+                  <button>Все</button>
+                  <button>Новое</button>
+                  <button>Книги</button>
+                </div>
+              </div>
+
+              <img src={bookglobal} alt="" />
+
+              <div className="tabs--general__block--one__line"></div>
+
+              <div className="tabs--general__block--one__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
+              </div>
+            </div>
+            <div className="tabs--general__block--one box-one">
+              <h1>С какой книги начать?</h1>
+
+              <div className="tabs--general__block--one__btn">
+                <h2>Полезные статьи</h2>
+
+                <div>
+                  <button>Все</button>
+                  <button>Новое</button>
+                  <button>Книги</button>
+                </div>
+              </div>
+
+              <img src={bookglobal} alt="" />
+
+              <div className="tabs--general__block--one__line"></div>
+
+              <div className="tabs--general__block--one__text">
+                <h4>Автор: Muslim Bolot</h4>
+                <h4>Дата: 22.08.22</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="tabs--general__footer">
+            <button>Показать болшье</button>
           </div>
         </div>
       </section>
