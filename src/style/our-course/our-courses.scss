@@ -3,475 +3,170 @@
 
 //Наши курсы
 
+#articles {
 
-#new {
-  padding: 50px 0;
+  padding: 30px 0;
 
-  .new--general {
-    padding-top: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .articles--general {
 
-    &__block {
-      width: 1300px;
-      height: 550px;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid #FFFFFF;
-      backdrop-filter: blur(14px);
-      border-radius: 10px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
+    padding-top: 200px;
 
-      &--text {
-        h1 {
-          font-weight: 600;
-          font-size: 40px;
-          color: #FFFFFF;
-          padding-bottom: 30px;
-        }
-
-        p {
-          width: 496px;
-          font-weight: 400;
-          font-size: 24px;
-          color: #FFFFFF;
-          padding-bottom: 30px;
-        }
-
-        &__btn {
-          &--one {
-            margin-right: 25px;
-            width: 176px;
-            height: 44px;
-            background: #FFFFFF;
-            border-radius: 10px;
-            font-weight: 400;
-            font-size: 16px;
-            color: #595FEB;
-            border: none;
-            cursor: pointer;
-            transition: .4s;
-
-            &:hover {
-              background: #595FEB;
-              color: #FFFFFF;
-              border: 2px solid white;
-            }
-          }
-
-          &--two {
-            width: 94px;
-            height: 44px;
-            border: 1px solid #FFFFFF;
-            backdrop-filter: blur(24px);
-            background: transparent;
-            border-radius: 10px;
-            font-weight: 400;
-            font-size: 16px;
-            color: #FFFFFF;
-            cursor: pointer;
-            transition: .4s;
-
-            &:hover {
-              background: #595FEB;
-
-            }
-          }
-        }
-
-      }
-
-    }
-
-  }
-
-}
-
-#courses {
-
-  padding: 50px 0;
-
-  .courses--general {
-
-    h1 {
-      font-weight: 600;
-      font-size: 40px;
-      color: #FFFFFF;
-    }
-
-    &__block {
-      padding: 40px 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      &--one {
-        margin: 0 10px;
-        width: 400px;
-        height: 449px;
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid #FFFFFF;
-        backdrop-filter: blur(15px);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        padding-left: 10px;
-        flex-direction: column;
-
-        h1 {
-          font-weight: 500;
-          font-size: 24px;
-          color: #FFFFFF;
-        }
-
-        &__btn {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          padding: 20px 0;
-
-          h3 {
-            font-weight: 600;
-            font-size: 16px;
-            color: #FFFFFF;
-            padding-right: 50px;
-          }
-
-          div {
-            button {
-              margin: 0 7px;
-              width: 64px;
-              height: 30px;
-              background: rgba(255, 255, 255, 0.1);
-              border: 0.5px solid #FFFFFF;
-              border-radius: 5px;
-              font-weight: 400;
-              font-size: 16px;
-              color: #FFFFFF;
-              cursor: pointer;
-              transition: .4s;
-
-              &:hover {
-                background: transparent;
-                color: black;
-                border: 2px solid black;
-              }
-            }
-          }
-
-        }
-
-        h5 {
-          padding: 10px 0 0 0;
-          font-weight: 400;
-          font-size: 16px;
-          color: #FFFFFF;
-        }
-
-      }
-
-    }
-
-    .courses--general__btn {
-      display: flex;
-      justify-content: center;
-
-      button {
-        width: 201px;
-        height: 48px;
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid #FFFFFF;
-        border-radius: 10px;
-        cursor: pointer;
-        font-weight: 400;
+    &__text{
+      h5{
         font-size: 16px;
-        color: #FFFFFF;
-        transition: .4s;
-
-        &:hover {
-          background: crimson;
-          color: black;
-          border: 2px solid;
-        }
+        line-height: 20px;
+        padding-bottom: 15px;
       }
-    }
-
-  }
-}
-
-#master {
-
-  padding: 50px 0;
-
-  .master--general {
-
-    h1 {
-      font-weight: 600;
-      font-size: 40px;
-      color: #FFFFFF;
-    }
-
-    &__block {
-      padding: 40px 0;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
-
-      &--one {
-        margin: 20px 5px;
-        width: 370px;
-        height: 449px;
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid #FFFFFF;
-        backdrop-filter: blur(15px);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        padding-left: 10px;
-        flex-direction: column;
-
-        h1 {
-          font-weight: 500;
-          font-size: 24px;
-          color: #FFFFFF;
-        }
-
-        &__btn {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          padding: 20px 0;
-
-          h3 {
-            font-weight: 600;
-            font-size: 16px;
-            color: #FFFFFF;
-            padding-right: 50px;
-          }
-
-          div {
-            button {
-              margin: 0 7px;
-              width: 64px;
-              height: 30px;
-              background: rgba(255, 255, 255, 0.1);
-              border: 0.5px solid #FFFFFF;
-              border-radius: 5px;
-              font-weight: 400;
-              font-size: 16px;
-              color: #FFFFFF;
-              cursor: pointer;
-              transition: .4s;
-
-              &:hover {
-                background: transparent;
-                color: black;
-                border: 2px solid black;
-              }
-            }
-          }
-
-        }
-
-        h5 {
-          padding: 10px 0 0 0;
-          font-weight: 400;
-          font-size: 16px;
-          color: #FFFFFF;
-        }
-
+      h1{
+        font-size: 40px;
+        line-height: 49px;
       }
-
     }
 
     &__btn {
       display: flex;
-      justify-content: center;
-
-      button {
-        width: 268px;
-        height: 48px;
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid #FFFFFF;
-        border-radius: 10px;
-        cursor: pointer;
-        font-weight: 400;
-        font-size: 16px;
-        color: #FFFFFF;
-        transition: .4s;
-
-        &:hover {
-          background: crimson;
-          color: black;
-          border: 2px solid;
-        }
-      }
-    }
-
-  }
-}
-
-#reviews {
-
-  padding: 50px 0;
-
-  .reviews--general {
-
-    h1 {
-      font-weight: 600;
-      font-size: 40px;
-      color: #FFFFFF;
-    }
-
-    &__swiper {
-      display: flex;
-      justify-content: center;
-
+      padding: 30px 0 30px 0;
 
       div {
-        width: 856px;
-        height: 224px;
-        background: rgba(255, 255, 255, 0.1);
-        //border: 1px solid #FFFFFF;
-        backdrop-filter: blur(12px);
-        border-radius: 10px;
-      }
+        padding: 0 8px;
 
-      .slick-list {
-        overflow: hidden;
-
-        .slick-track {
-          display: flex;
-          width: 97%;
-        }
-      }
-
-      &--block {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-
-        p {
-          width: 796px;
+        button {
+          padding: 5px 17px;
           font-weight: 400;
-          font-size: 20px;
-          line-height: 24px;
+          font-size: 16px;
           color: #FFFFFF;
-        }
+          gap: 10px;
+          border: 1px solid #FFFFFF;
+          border-radius: 10px;
+          background: transparent;
+          cursor: pointer;
+          transition: .4s;
 
-        nav {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          &:hover {
 
-          h1 {
-            font-weight: 500;
-            font-size: 24px;
-            color: #FFFFFF;
-            padding: 0 20px;
+            background: #FFFFFF;
+            font-weight: 400;
+            font-size: 16px;
+            color: #595FEB;
+
           }
-
-          input {
-            color: white;
-            font-size: 18px;
-            background: transparent;
-            width: 350px;
-            border: none;
-            outline: none;
-            border-bottom: 2px solid white;
-          }
-
 
         }
 
       }
-
     }
 
     &__block {
 
-      padding: 60px 0;
       display: flex;
-      justify-content: space-around;
-      align-items: start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 30px 0;
 
-      &--left {
+      &--one {
+        //width: 25%;
+        margin: 10px 0;
+        padding: 10px 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
 
         h1 {
-          font-weight: 600;
-          font-size: 40px;
+          font-weight: 500;
+          font-size: 24px;
           color: #FFFFFF;
-          padding-bottom: 30px;
         }
 
-        p {
-          width: 320px;
-          height: 120px;
-          font-weight: 400;
-          font-size: 20px;
-          color: #FFFFFF;
+        &__btn {
+
+          display: flex;
+          align-items: center;
+          padding: 10px 0;
+
+          h2 {
+            font-weight: 600;
+            font-size: 16px;
+            color: #FFFFFF;
+          }
+
+          div {
+            padding-left: 30px;
+
+            button {
+              margin: 0 8px;
+              padding: 5px;
+              background: rgba(255, 255, 255, 0.1);
+              border: 0.5px solid #FFFFFF;
+              border-radius: 5px;
+              font-weight: 400;
+              font-size: 16px;
+              color: #FFFFFF;
+              cursor: pointer;
+              transition: .4s;
+
+              &:hover {
+                border: 1px solid #000000;
+                color: #000000;
+                background: transparent;
+              }
+            }
+          }
+
+        }
+
+        &__line {
+          margin: 10px 0 0 0;
+          width: 95%;
+          border: 1px solid #FFFFFF;
+        }
+
+        &__text {
+          display: flex;
+          align-items: center;
+
+          h4 {
+            font-weight: 400;
+            font-size: 16px;
+            padding: 10px 10px 0 20px;
+          }
         }
 
       }
 
-      &--right {
+    }
 
-        &__one {
-          padding: 20px 10px 30px 10px;
-          background: rgba(255, 255, 255, 0.1);
+    &__footer{
+      display: flex;
+      padding: 30px 0 30px 0;
+
+      div {
+        padding: 0 8px;
+
+        button {
+          padding: 10px 15px;
+          font-weight: 400;
+          font-size: 16px;
+          color: #FFFFFF;
+          gap: 10px;
           border: 1px solid #FFFFFF;
-          backdrop-filter: blur(24px);
           border-radius: 10px;
-          overflow: hidden;
+          background: transparent;
+          cursor: pointer;
+          transition: .4s;
 
-          div {
+          &:hover {
 
-            padding: 7px 0;
-
-            h1 {
-              font-size: 20px;
-              line-height: 24px;
-            }
-
-            input {
-              padding: 0 10px;
-              font-size: 14px;
-              font-weight: 400;
-              background: transparent;
-              color: white;
-              width: 495px;
-              height: 40px;
-              border: 1px solid #FFFFFF;
-              border-radius: 10px;
-              outline: none;
-            }
-
-            textarea {
-              padding: 10px 10px;
-              font-size: 14px;
-              font-weight: 400;
-              background: transparent;
-              color: white;
-              border: 1px solid #FFFFFF;
-              border-radius: 10px;
-            }
-
+            background: #FFFFFF;
+            font-weight: 400;
+            font-size: 16px;
+            color: #595FEB;
 
           }
-        }
-
-        p {
-          padding: 8px 0;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
-          color: rgba(255, 255, 255, 0.41);
 
         }
 
@@ -482,5 +177,3 @@
   }
 
 }
-
-

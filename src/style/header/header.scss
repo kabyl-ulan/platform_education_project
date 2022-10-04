@@ -18,12 +18,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     img {
       width: 100%;
     }
+
     &__nav {
       display: flex;
-      span {
+
+      h1 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 16px;
@@ -33,28 +36,28 @@
         padding-bottom: 3px;
         position: relative;
 
-        &:before {
+        &:before{
           position: absolute;
-          content: '';
+          content: "";
           width: 0;
           height: 2px;
           background: aqua;
           bottom: 0;
           left: 50%;
-          transition: 0.3s;
+          transition: .3s;
         }
-
-        &:after {
+        &:after{
           position: absolute;
-          content: '';
+          content: "";
           width: 0;
           height: 2px;
           background: aqua;
           bottom: 0;
           right: 50%;
-          transition: 0.3s;
+          transition: .3s;
         }
 
+<<<<<<< HEAD
         &:hover a:before {
           content: '';
           width: 50%;
@@ -62,11 +65,18 @@
 
         &:hover a:after {
           content: '';
+=======
+        &:hover a:before{
+          width: 50%;
+        }
+        &:hover a:after{
+>>>>>>> d0fe3991ee271e256f6605af4400bc8a1a439e1a
           width: 50%;
         }
       }
     }
-    button {
+
+      button {
       border: none;
       cursor: pointer;
       width: 129px;
@@ -80,6 +90,7 @@
       font-size: 16px;
       color: #595feb;
       transition: 0.4s;
+
       div {
         font-size: 30px;
         padding-right: 10px;

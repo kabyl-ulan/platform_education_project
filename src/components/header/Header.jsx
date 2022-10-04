@@ -18,13 +18,13 @@ const Header = () => {
           </NavLink>
           <nav className="header__nav">
             <NavLink to="/" className="nav-a">
-              <span>Главная</span>
+              <h1>Главная</h1>
             </NavLink>
             <NavLink to="/our-courses" className="nav-a">
-              <span>Наши курсы</span>
+              <h1>Наши курсы</h1>
             </NavLink>
             <NavLink to="/about" className="nav-a">
-              <span>О нас</span>
+              <h1>О нас</h1>
             </NavLink>
           </nav>
           <button onClick={navigate}>
